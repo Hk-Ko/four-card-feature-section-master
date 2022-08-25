@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+$font-family-sans-serif:'Poppins', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card-one{
+    border-top:4px solid;
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.card-two{
+    border-top:4px solid;
+    border-top-color:hsl(0, 78%, 62%);
+}
+
+.card-three{
+    border-top:4px solid;
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.card-four{
+    border-top:4px solid;
+    border-top-color:sl(212, 86%, 64%);
+}
+
+.text-size{
+    font-size: 10px;
+}
+
+.img-size{
+    height: 55px;
+    width: 55px;
+}
